@@ -105,6 +105,8 @@ def mesdata(a):
     # Data é válida?
     if(vetor[0] > 31 or vetor[0] < 1):
         print("Dia Inválido, digite novamente!")
+    if(vetor[1] > 12 or vetor[1] <= 0):
+        print("Mês Inválido, digite novamente!") 
         
     else:
         dia = vetor[0]
