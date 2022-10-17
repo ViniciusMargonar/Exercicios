@@ -97,11 +97,7 @@ def dobro(a):
 def mesdata(a):
     teste = a.split("/")
     vetor = [0] * len(teste)
-
-    # Verificar se tem 0 no inicio:
-    if(len(teste[1]) == 2):
-        vetor[1] = round(vetor[1]) 
-    
+   
     # Converter para int e salvar em vetor:
     for i in range(0, len(teste)):
         vetor[i] = int(teste[i]) 
